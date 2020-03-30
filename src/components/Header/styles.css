@@ -1,0 +1,61 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #33BFCB;
+  padding: 16px 128px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  transition: opacity 0.5s;
+}
+
+.logo:hover {
+  opacity: 0.5;
+}
+
+.logo-icon {
+  height: 32px;
+}
+
+.logo-text {
+  margin-left: 8px;
+  color: #FFF;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.header-cart {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  transition: opacity 0.5s;
+}
+
+.header-cart:hover {
+  opacity: 0.5;
+}
+
+.header-cart div {
+  text-align: right;
+  margin-right: 10px;
+}
+
+.header-cart div > strong {
+  display: block;
+  color: #B6EDF2;
+}
+
+.header-cart div span {
+  font-size: 12px;
+  color: #FFF;
+  font-weight: bold;
+}
+
+.header-cart div span strong {
+  font-size: 12px;
+  color: #FFF;
+}
