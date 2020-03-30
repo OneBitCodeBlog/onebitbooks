@@ -21,10 +21,16 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-input, button, textarea {
+input, button, body {
   font: 400 18px Roboto, sans-serif;
 }
 
 button {
   cursor: pointer;
+}
+
+.container {
+  max-width: 1020px;
+  margin: 64px auto;
+  padding: 0 20px;
 }
