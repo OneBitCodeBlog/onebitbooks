@@ -1,0 +1,92 @@
+.bag-container {
+  padding: 30px;
+  background: #fff;
+  border-radius: 4px;
+}
+
+.bag-container footer {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bag-container footer button {
+  background: transparent;
+  color: #33BFCB;
+  border: 2px solid #33BFCB;
+  border-radius: 4px;
+  padding: 12px 20px;
+  font-weight: bold;
+  transition: background 0.5s, color 0.5s;
+}
+
+.bag-container footer button:hover {
+  color: #FFF;
+  background: #33BFCB;
+}
+
+.book-table {
+  width: 100%;
+}
+
+.book-table thead th {
+  color: #878C99;
+  text-align: left;
+  padding: 12px;
+}
+
+.book-table tbody td {
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+}
+
+.book-table img {
+  height: 100px;
+}
+
+.book-table strong {
+  color: #333;
+  display: block;
+}
+
+.book-table span {
+  display: block;
+  margin-top: 5px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.book-table div {
+  display: flex;
+  align-items: center;
+}
+
+.book-table div input {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  color: #878C99;
+  padding: 6px;
+  width: 50px;
+}
+
+.book-table button {
+  background: none;
+  border: 0;
+  padding: 6px;
+}
+
+.total {
+  display: flex;
+  align-items: baseline;
+}
+
+.total span {
+  color: #878C99;
+  font-weight: bold;
+}
+
+.total strong {
+  font-size: 28px;
+  margin-left: 5px;
+}
