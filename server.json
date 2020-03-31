@@ -1,0 +1,40 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "JavaScript: O Guia Definitivo",
+      "price": 146.08,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51w53T12s8L.jpg"
+    },
+    {
+      "id": 2,
+      "title": "JavaScript: The Good Parts: The Good Parts",
+      "price": 44.69,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/511j6cza5bL.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Padrões JavaScript",
+      "price": 47.68,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51ZL3TV7D1L._SX360_BO1,204,203,200_.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Aprendendo Node: Usando JavaScript no Servidor",
+      "price": 66.75,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51wX6cd1iiL._SX357_BO1,204,203,200_.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Princípios de Orientação a Objetos em JavaScript",
+      "price": 36.00,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51TUG%2BmeWnL._SX342_BO1,204,203,200_.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Cangaceiro JavaScript: Uma aventura no sertão da programação",
+      "price": 39.90,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/41357uLpB-L.jpg"
+    }
+  ]
+}
