@@ -1,68 +1,70 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">
+  <img alt="BeTheHero" title="BeTheHero" src="https://github.com/OneBitCodeBlog/onebitbooks/blob/master/.github/LogoOBB.png" width="200px" />
+</h1>
 
-## Available Scripts
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/OneBitCodeBlog/onebitbooks">
 
-In the project directory, you can run:
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/OneBitCodeBlog/onebitbooks">
 
-### `yarn start`
+  <a href="https://github.com/Rocketseat/semana-omnistack-10/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/OneBitCodeBlog/onebitbooks">
+  </a>
+</p>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<h3 align="center">
+  Loja de livros online com Redux
+</h3>
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+<p align="center">
+  <a href="#demonstração">Demonstração</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#utilização">Utilização</a>&nbsp;&nbsp;&nbsp;
+</p>
 
-### `yarn test`
+<br>
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Demonstração
 
-### `yarn build`
+<p align="center">
+  <img alt="web" src="https://github.com/OneBitCodeBlog/onebitbooks/blob/master/.github/obb.gif" width="100%">
+</p>
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<br>
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## Tecnologias
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* [Node.js](https://nodejs.org/pt-br/)
+* [Json Server](https://www.npmjs.com/package/json-server)
+* [React.js](https://reactjs.org/)
+* [React Icons](https://www.npmjs.com/package/react-icons)
+* [React Router DOM](https://www.npmjs.com/package/react-router-dom)
+* [Axios](https://www.npmjs.com/package/axios)
+* [Redux](https://www.npmjs.com/package/redux)
+* [React Redux](https://www.npmjs.com/package/react-redux)
+* [Redux Toolkit](https://www.npmjs.com/package/@reduxjs/toolkit)
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Utilização
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Instale o [Node.js](https://nodejs.org/en/download/), [Yarn](https://classic.yarnpkg.com/pt-BR/docs/install/) e [Git](https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Instalando-o-Git);
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+2. Baixe o projeto onde desejar através do comando abaixo:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```console
+git clone https://github.com/OneBitCodeBlog/onebitbooks
+```
 
-## Learn More
+3. Execute os comandos abaixo:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```console
+cd onebitbooks
+yarn install
+json-server server.json -p 3333
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Abra outro terminal na mesma pasta e execute:
 
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+```console
+yarn start
+```
